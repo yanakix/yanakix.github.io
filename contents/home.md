@@ -1,14 +1,14 @@
 
+现就读于哈尔滨工业大学（深圳），就读专业计算机科学与技术。
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+#### GitHub
+[![yanakix](https://img.shields.io/badge/yanakix-github-blue?logo=github)](https://github.com/yanakix)
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
 
-#### Contact
+#### 邮箱
+2023311618[at]stu.hit.edu.cn
 
-Email: senli[at]fas.harvard.edu
-
-#### Education
+#### 教育经历
 M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
 B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
 
