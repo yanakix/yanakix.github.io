@@ -6,12 +6,12 @@
 
 
 #### 邮箱
-2023311618[at]stu.hit.edu.cn
+2023311618@stu.hit.edu.cn
 
 #### 教育经历
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+计算机科学与技术, 哈尔滨工业大学（深圳）, 2023—2027.\
 
-#### Research Interests
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+#### 专业技能
+熟悉C/C#/Python/Java的使用。\
+熟悉基于Unity引擎的2D游戏开发流程。
 
