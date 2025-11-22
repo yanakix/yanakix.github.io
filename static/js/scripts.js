@@ -55,6 +55,13 @@ window.addEventListener('DOMContentLoaded', event => {
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
+
+
+                if (name === 'portfolio') {
+                    setTimeout(initPortfolioAccordion, 100);
+                }
+
+
             }).then(() => {
                 // MathJax
                 MathJax.typeset();
@@ -63,3 +70,28 @@ window.addEventListener('DOMContentLoaded', event => {
     })
 
 }); 
+
+
+// Portfolio accordion functionality
+function initPortfolioAccordion() {
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    
+    portfolioItems.forEach(item => {
+        const title = item.querySelector('.portfolio-title');
+        const content = item.querySelector('.portfolio-content');
+        
+        title.addEventListener('click', () => {
+            // Toggle active class for animation
+            title.classList.toggle('active');
+            content.classList.toggle('active');
+            
+            // Close other items (optional - remove if you want multiple items open)
+            portfolioItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    otherItem.querySelector('.portfolio-title').classList.remove('active');
+                    otherItem.querySelector('.portfolio-content').classList.remove('active');
+                }
+            });
+        });
+    });
+}
