@@ -24,9 +24,62 @@
         - <strong>模板模式</strong>：将游戏逻辑抽象出Game模板，然后通过继承模板来实现不同的游戏难度<br>
         除此之外，项目中还使用线程池来定时任务调度，以及使用线程池来管理音频线程
       </div>
-      <div class="portfolio-gif">
-        <img src="static/assets/gif/test.gif" alt="项目演示 GIF" loading="lazy">
-        <p class="gif-caption">项目功能演示</p>
+      <div class="five-images">
+        <div class="video-item">
+          <video 
+            src="static/assets/video/AircraftWar/MenuUI.mp4"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="portfolio-video"
+          ></video>
+          <p class="video-caption">游戏主界面与菜单UI</p>
+        </div>
+        <div class="video-item">
+          <video 
+            src="static/assets/video/AircraftWar/ScoreUI.mp4"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="portfolio-video"
+          ></video>
+          <p class="video-caption">游戏结束结算得分榜UI</p>
+        </div>
+        <div class="video-item">
+          <video 
+            src="static/assets/video/AircraftWar/BossBattle.mp4"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="portfolio-video"
+          ></video>
+          <p class="video-caption">Boss战</p>
+        </div>
+        <div class="video-item">
+          <video 
+            src="static/assets/video/AircraftWar/ShootStrategy1.mp4"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="portfolio-video"
+          ></video>
+          <p class="video-caption">射击模式1</p>
+        </div>
+        <div class="video-item">
+          <video 
+            src="static/assets/video/AircraftWar/ShootStrategy2.mp4"
+            autoplay 
+            loop 
+            muted 
+            playsinline
+            class="portfolio-video"
+          ></video>
+          <p class="video-caption">射击模式2</p>
+        </div>
       </div>
     </div>
   </div>
