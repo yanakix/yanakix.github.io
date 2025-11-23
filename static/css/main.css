@@ -229,8 +229,54 @@ section .main-body{
 }
 
 
+
+
+
+/* 视频布局样式 */
+.three-images, .two-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+}
+
+.portfolio-video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+  background: #000;
+}
+
+.video-caption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
+  .three-images, .two-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-item {
+    width: 100%;
+    max-width: 400px;
+  }
+
   .portfolio-title {
     padding: 1rem;
     font-size: 1.1rem;
@@ -240,4 +286,3 @@ section .main-body{
     padding: 1rem;
   }
 }
-
