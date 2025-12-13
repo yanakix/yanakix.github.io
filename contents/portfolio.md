@@ -15,14 +15,12 @@
       </div>
       <div class="portfolio-description">
         飞机大战项目是校内课程<strong>软件构造</strong>的实验课作业，实现了一个难度分级，包含菜单、得分榜UI（UI借助Swing实现）的完整小游戏<br>
-        实现过程中对多种设计模式进行了实践：<br>
-        - <strong>单例模式</strong>：游戏中英雄机使用单例模式的饿汉式来创建线程安全的实例<br>
-        - <strong>抽象工厂</strong>：使用抽象工厂创建不同种类的子弹，道具，敌机<br>
-        - <strong>策略模式</strong>：射击模式采用策略模式实现，以方便地实现道具的切换英雄机攻击模式<br>
-        - <strong>数据访问对象模式DAO</strong>：使用DAO模式来管理得分数据，并在游戏结束结算时排榜<br>
-        - <strong>观察者模式</strong>：使用观察者模式来实现炸弹道具对不同敌机的不同效果<br>
-        - <strong>模板模式</strong>：将游戏逻辑抽象出Game模板，然后通过继承模板来实现不同的游戏难度<br>
-        除此之外，项目中还使用线程池来定时任务调度，以及使用线程池来管理音频线程
+        在该项目中，我进行了如下工作：<br>
+        •核心游戏逻辑的设计与架构实现<br>
+        •通过抽象工厂 + 策略模式解耦敌机、子弹与射击行为，提升扩展性<br>
+        •使用模板方法抽象游戏流程，不同难度仅需定制参数与局部逻辑<br>
+        •使用 DAO 模式管理本地得分数据，实现排行榜持久化<br>
+        •使用线程池调度敌机生成、子弹发射与音频播放，避免主线程阻塞<br>
       </div>
       <div class="five-images">
         <div class="video-item">
@@ -99,13 +97,15 @@
         </a>
       </div>
       <div class="portfolio-description">
-        <p>该项目的目的是自学Unity游戏引擎，过程中跟随Udemy的Alex老师的<a href="https://www.udemy.com/course/2d-rpg-alexdev/" target="_blank">RPGGame课程</a>学习。</p>
-        <p>该项目不是对课程的完全照抄，在部分细节的实现上加入了自己的思考，同时也加入了一些自己的设计。目前该项目仍在进行中，在此处将展示一些已经实现的功能。</p>
+        <p>自学 Unity 引擎的 2D 横版动作游戏项目，在课程基础上进行二次设计与扩展</p>
       </div>
       <!-- 移动系统 -->
       <div class="feature-section">
         <h4 class="feature-title">移动系统</h4>
-        <p class="feature-description">实现了丰富的角色移动能力，为游戏提供基础。</p>
+        <p class="feature-description">
+          • 基于状态机实现角色移动系统（跑动 / 冲刺 / 贴墙滑行 / 滑铲）<br>
+          • 不同状态之间通过条件切换，减少复杂分支判断
+        </p>
         <div class="four-images">
           <div class="video-item">
             <video 
@@ -144,7 +144,12 @@
       <!-- 攻击系统 -->
       <div class="feature-section">
         <h4 class="feature-title">攻击系统</h4>
-        <p class="feature-description">包含基础攻击和弹反机制。</p>
+        <p class="feature-description">
+          • 攻击系统基于状态机实现<br>
+          • 实现基础连击系统（最多三段）与弹反机制<br>
+          • 已经实现配套的数值系统及对应的UI<br>
+          • 通过动画的Event来触发攻击判定，并转到数值系统进行对应计算和UI显示
+        </p>
         <div class="two-images">
           <div class="video-item">
             <video 
@@ -167,7 +172,11 @@
       <!-- 技能系统 -->
       <div class="feature-section">
         <h4 class="feature-title">技能系统</h4>
-        <p class="feature-description">丰富的技能组合，目前包括两大类小技能和一个终极技能</p>
+        <p class="feature-description">
+          • 两个基类Skill和SkillController搭建起整个技能框架<br>
+          • 通过SkillManager类管理所有技能，并为后续的技能树系统铺垫<br>
+          • 已实现投掷类技能、水晶技能与终极技能
+        </p>
         <div class="skill-subsection">
           <h5 class="skill-subtitle">掷剑技能</h5>
           <div class="three-images">
