@@ -85,13 +85,13 @@ function initPortfolioAccordion() {
             title.classList.toggle('active');
             content.classList.toggle('active');
             
-            // Close other items (optional - remove if you want multiple items open)
+/*             // Close other items
             portfolioItems.forEach(otherItem => {
                 if (otherItem !== item) {
                     otherItem.querySelector('.portfolio-title').classList.remove('active');
                     otherItem.querySelector('.portfolio-content').classList.remove('active');
                 }
-            });
+            }); */
         });
     });
 }
