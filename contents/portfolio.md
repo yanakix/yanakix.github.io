@@ -256,8 +256,62 @@
       </div>
     </div>
   </div>
-
-    <!-- AircraftWar -->
+  <!-- 3D Platform Demo -->
+  <div class="portfolio-item">
+    <h3 class="portfolio-title">
+      <i class="bi bi-chevron-right"></i>
+      <span class="project-status status-ongoing">已完成</span>
+      <span class="project-date">2026年5月 - 2026年6月</span>
+      3D Platform Demo
+    </h3>
+    <div class="portfolio-content">
+      <div class="portfolio-description">
+        <p>基于UE5的3D平台跳跃类游戏Demo，C++搭建逻辑框架，蓝图实现动画、UI等表现层内容</p>
+      </div>
+      <!-- 核心玩法 -->
+      <div class="feature-section">
+        <h4 class="feature-title">核心玩法</h4>
+        <p class="feature-description">
+          • 合理利用体力和技能，躲避或者击杀敌人，收集足够的金币以获取胜利
+        </p>
+        <div class="four-images">
+          <div class="video-item">
+            <video 
+              src="static/assets/video/3DPlatformDemo/Attack.mp4"
+              autoplay loop muted playsinline
+              class="portfolio-video"
+            ></video>
+            <p class="video-caption">攻击交互</p>
+          </div>
+          <div class="video-item">
+            <video 
+              src="static/assets/video/3DPlatformDemo/CollectCoin.mp4"
+              autoplay loop muted playsinline
+              class="portfolio-video"
+            ></video>
+            <p class="video-caption">收集金币</p>
+          </div>
+          <div class="video-item">
+            <video 
+              src="static/assets/video/3DPlatformDemo/GameWin.mp4"
+              autoplay loop muted playsinline
+              class="portfolio-video"
+            ></video>
+            <p class="video-caption">游戏胜利</p>
+          </div>
+          <div class="video-item">
+            <video 
+              src="static/assets/video/3DPlatformDemo/Dead.mp4"
+              autoplay loop muted playsinline
+              class="portfolio-video"
+            ></video>
+            <p class="video-caption">角色死亡</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- AircraftWar -->
   <div class="portfolio-item">
     <h3 class="portfolio-title">
       <i class="bi bi-chevron-right"></i>
