@@ -265,6 +265,11 @@
       3D Platform Demo
     </h3>
     <div class="portfolio-content">
+      <div class="portfolio-links">
+        <a href="https://github.com/yanakix/EasyWorldNetWorkEnhanced" class="github-link" target="_blank">
+          <i class="bi bi-github"></i> 前往GitHub仓库
+        </a>
+      </div>
       <div class="portfolio-description">
         <p>基于UE5的3D平台跳跃类游戏Demo，C++搭建逻辑框架，蓝图实现动画、UI等表现层内容</p>
       </div>
